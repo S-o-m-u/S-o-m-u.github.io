@@ -35,8 +35,47 @@
             #section-home div:first-child{
                 padding: 20px;
             }
+            #section-projects{
+                margin: 20px;
+            }
 
+            .two-projects{
+                display: flex;
+            }
 
+            .two-projects>div{
+                width: 50%;
+                padding: 20px;
+                border-radius: 20px;
+
+            }
+            .two-projects>div:first-child{
+                background-color: #ecebfd;
+                margin-right: 10px;
+
+            }
+
+            .two-projects>div:last-child{
+                background-color: #2d3542;
+                color: #FFF;
+                margin-left: 10px;
+            }
+
+            .two-projects img{
+                height: 300px;
+            }
+
+            .third-project{
+                padding: 20px;
+                margin: 20px;
+                background-image: linear-gradient(to bottom right, #ffb748, #4543b6);
+                color: white;
+                border-radius: 20px;
+            }
+
+            .third-project img{
+                height: 400px;
+            }
     </style>
 </head>
 
@@ -75,7 +114,7 @@
         </div>
     </section>
     <section id="section-projects">
-        <div>
+        <div class="two-projects">
             <!--first two projects-->
             <div>
                 <h1>Paymento</h1>
@@ -88,7 +127,7 @@
                 <img src="images/taskit.png" alt="">
             </div>
         </div>
-        <div>
+        <div class="third-project">
             <!-- third project -->
             <h1>Piyuu</h1>
             <p>Freelancing plateform for indivisuals</p>
